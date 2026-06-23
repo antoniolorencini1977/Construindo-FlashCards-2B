@@ -5,29 +5,22 @@
     padding: 0;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; /* Garante que o corpo ocupe toda a altura da tela */
-    font-family: Arial, sans-serif;
-}
+body { 
+  display: flex; 
+  flex-direction: column; 
+  min-height: 100vh; 
+} 
 
-.cabecalho {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #f4f4f4;
-}
+.cabecalho { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 15px 25px; 
+} 
 
-main {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 40px;
-}
+main { 
+  flex: 1; 
+} 
 
 /* ==========================================================================
    MÁGICA DO EFEITO 3D (FLIP CARD)
